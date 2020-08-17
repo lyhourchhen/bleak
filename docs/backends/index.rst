@@ -36,6 +36,7 @@ Client
  - The constructor keyword ``address_type`` which can have the values ``"public"`` or ``"random"``. This value
    makes sure that the connection is made in a fashion that suits the peripheral.
 
+.. _macos-backend:
 
 .. _macos-backend:
 
@@ -71,6 +72,8 @@ the scan and thus cached the device as ``243E23AE-4A99-406C-B317-18F1BD7B4CBE``.
 There is also no pairing functionality implemented in macOS right now, since it does not seem
 to be any explicit pairing methods in the COre Bluetooth.
 
+
+.. _linux-backend:
 
 .. _linux-backend:
 
