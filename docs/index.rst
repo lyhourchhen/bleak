@@ -48,15 +48,18 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   nutshell
    installation
-   scanning
-   usage
+   basic/index
+   advanced/index
    backends/index
-   api
+   examples
+   history
    troubleshooting
    contributing
    authors
-   history
+   api
+
 
 Indices and tables
 ==================
