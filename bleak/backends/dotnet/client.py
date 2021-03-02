@@ -306,12 +306,14 @@ class BleakClientDotNet(BaseBleakClient):
         """Attempts to pair with the device.
 
         Keyword Args:
-            protection_level:
-                    DevicePairingProtectionLevel
-                        1: None - Pair the device using no levels of protection.
-                        2: Encryption - Pair the device using encryption.
-                        3: EncryptionAndAuthentication - Pair the device using
-                           encryption and authentication. (This will not work in Bleak...)
+            protection_level (int):
+
+                1: None - Pair the device using no levels of protection. This is the default.
+
+                2: Encryption - Pair the device using encryption.
+
+                3: EncryptionAndAuthentication - Pair the device using
+                encryption and authentication. (This will not work in Bleak...)
 
         Returns:
             Boolean regarding success of pairing.

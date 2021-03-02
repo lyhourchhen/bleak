@@ -31,3 +31,6 @@ These Bluetooth Low Energy features are implemented in Bleak:
 - Write to GATT Descriptors
 
 If you have need of a BLE feature that is not present in the list above, then Bleak is not what you are looking for.
+
+If you are looking for implementing a GATT server / BLE peripheral of your own, then the companion package
+`Bless <https://github.com/kevincar/bless>`_ is what you are looking.
